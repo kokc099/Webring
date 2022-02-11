@@ -14,6 +14,7 @@ font-family: inherit; font-style: inherit; font-size:
 
 
 body{
+background-color:f1f1f1;
   
 font-family: itc-avant-garde-gothic-pro, sans-serif;
 font-weight: 700;
@@ -318,4 +319,25 @@ color: #fdb3ed;
 
 p8:hover{
 -webkit-text-fill-color: #fdb3ed;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin:0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 16px;
+  text-decoration: none;
+  color: #fdb3ed;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+li:hover{
+-webkit-text-fill-color: #fdb3ed;  
 }
